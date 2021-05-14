@@ -16,6 +16,3 @@ class Palindrome:
                     else:
                         return False
             return True
-
-p1 = Palindrome()
-print(p1.palindrome(2))
