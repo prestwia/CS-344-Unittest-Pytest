@@ -1,7 +1,7 @@
 class Palindrome:
     def palindrome(self, input):
         if (type(input) is not str):
-            return "Invalid type, input must be string."
+            raise TypeError("Only Strings are allowed")
         else:
             if (len(input) % 2 == 0):
                 for i in range(int(len(input) / 2)):

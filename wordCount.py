@@ -1,7 +1,7 @@
 class wordCount:
     def wordCount(self, input):
         if (type(input) is not str):
-            return "Invalid type, input must be string."
+            raise TypeError("Only Strings are allowed")
         else:
             numWords = 0
             for char in input:
